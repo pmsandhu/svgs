@@ -1,32 +1,39 @@
 body {
-  background-color: #AEBFAF; }
+  background-color: #AEBFAF;
+}
 
 body > div {
- margin-top: 10%; }
+  margin-top: 10%;
+}
 
 .flex {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 #svg circle {
   stroke-width: 7%;
-  fill:none;
-  transition: stroke-dashoffset 150ms ease-out; }
+  fill: none;
+  transition: stroke-dashoffset 150ms ease-out;
+}
 
 .inputDiv {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 #percent {
-    background-color: #99AA9C;
-    color: #fff;
-    font-family: Calibri;
-    margin-left: 1%;
-    padding: 1%;
-    border-radius: 10%; }
+  background-color: #99AA9C;
+  color: #fff;
+  font-family: Calibri;
+  margin-left: 1%;
+  padding: 1%;
+  border-radius: 10%;
+}
 
 input#input {
   width: 4%;
   border-radius: 10%;
   border: 2px solid #BECCBF;
-  padding: 1.2%; }
+  padding: 1.2%;
+}
