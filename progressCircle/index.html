@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Progress Circle SVG</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
+<meta charset="UTF-8">
+<title>Progress Circle SVG</title>
+<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-  <div class='flex top'>
-    <svg id="svg" width="200" height="200" viewPort="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg">
-     <!--stroke-dasharray= circumference(2PIr)-->
-      <circle
-        r="90"
-        cx="100"
-        cy="100"
-        stroke="#BECCBF"
-        stroke-dasharray="565.48"
-        stroke-dashoffset="0">
-      </circle>
-      
-      <circle
-        r="90"
-        cx="100"
-        cy="100"
-        stroke="#fff"
-        stroke-dasharray="565.48"
-        stroke-dashoffset="565.48"
-        stroke-linecap="round">
-      </circle>
-    </svg>
-  </div>
   
-  <div class="flex inputDiv">
-    <input id="input" type="number" min="0" max="100" step="10" value="0" onchange="progressUpdate()">
-    <span id="percent">%</span>
-  </div>
+<div class='flex top'>
+  <svg id="svg" width="200" height="200" viewPort="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <!--stroke-dasharray= circumference(2PIr)-->
+    <circle
+      r="90"
+      cx="100"
+      cy="100"
+      stroke="#BECCBF"
+      stroke-dasharray="565.48"
+      stroke-dashoffset="0">
+    </circle>
+    
+    <circle
+      r="90"
+      cx="100"
+      cy="100"
+      stroke="#fff"
+      stroke-dasharray="565.48"
+      stroke-dashoffset="565.48"
+      stroke-linecap="round">
+    </circle>
+  </svg>
+</div>
+
+<div class="flex inputDiv">
+  <input id="input" type="number" min="0" max="100" step="10" value="0" onchange="progressUpdate()">
+  <span id="percent">%</span>
+</div>
 
 <script src="script.js"></script>
 </body>
